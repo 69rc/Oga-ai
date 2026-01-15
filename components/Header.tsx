@@ -25,7 +25,7 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, toggleTheme }) => {
           <div className="flex items-center gap-2">
             <div className={`w-10 h-10 rounded-lg flex items-center justify-center p-1.5 ${darkMode ? 'bg-white/10' : 'bg-slate-100'}`}>
               <img 
-                src={darkMode ? "/components/asset/OGA AI Logo with Sapphire and Violet Gradient.png" : "/components/asset/OGA AI Logo with Indigo and Purple Gradients.png"} 
+                src={darkMode ? "/assets/OGA AI Logo with Sapphire and Violet Gradient.png" : "/assets/OGA AI Logo with Indigo and Purple Gradients.png"} 
                 alt="OgaAI Logo" 
                 className="w-full h-full object-contain"
               />

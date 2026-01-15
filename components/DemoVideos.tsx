@@ -41,7 +41,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ title, description, color, st
           playsInline
           loop
         >
-          <source src={step === "1" ? "/components/asset/OgaAI_ Smartest Staff.mp4" : "/components/asset/OgaAI_ Smart Finance.mp4"} type="video/mp4" />
+          <source src={step === "1" ? "/assets/OgaAI_ Smartest Staff.mp4" : "/assets/OgaAI_ Smart Finance.mp4"} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
